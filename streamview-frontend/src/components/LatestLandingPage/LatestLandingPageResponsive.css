@@ -1,0 +1,210 @@
+/*================================
+Template Name: StreamView New Landing Page
+================================== */
+
+@media (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1440px) {}
+
+@media (max-width: 1199.98px) {
+    .latest-landing-about-sec .about-video-sec {
+        max-height: 75%!important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .latest-landing-about-sec .about-details {
+        padding-top: 3em!important;
+    }
+    .latest-landing-about-sec .about-video-sec {
+        max-height: 89%!important;
+    }
+    .latest-landing-about-sec .about-details .about-title {
+        font-size: 2rem!important;
+    }
+    .latest-landing-about-sec .about-details .about-desc {
+        font-size: 1.2rem!important;
+    }
+    .latest-landing-sec {
+        min-height: 50vh!important;
+    }
+    .our-download-card {
+        width: 75%!important;
+        left: 42%!important;
+    }
+    .latest-download-sec .download-details {
+        padding-top: 5em!important;
+    }
+    .latest-download-sec .download-details .download-title {
+        font-size: 2rem!important;
+        line-height: 1.3!important;
+    }
+    .latest-download-sec .download-details .download-desc {
+        font-size: 1.2rem!important;
+    }
+    .latest-download-sec .mobile-img {
+        margin-left: -2em!important;
+    }
+    .book-img {
+        height: 4em!important;
+    }
+    .our-download-card .our-download-card-text .download-sub-title {
+        font-size: 1em!important;
+    }
+    .our-download-card .our-download-card-text .download-sub-desc {
+        font-size: 0.9em!important;
+    }
+    .latest-watch-everywhere-sec .watch-everywhere-details {
+        padding-top: 4.5em!important;
+    }
+    .latest-watch-everywhere-sec .watch-everywhere-details .watch-everywhere-title {
+        font-size: 2rem!important;
+    }
+    .latest-watch-everywhere-sec .watch-everywhere-details .watch-everywhere-desc {
+        font-size: 1.2rem!important;
+    }
+    .footer-sec .footer-sec-card .footer-site-sec {
+        width: 100%!important;
+        padding-top:0!important;
+    }
+    .footer-link-item {
+        width: 50%!important;
+    }
+    .language-dropdown {
+        width: 150px!important;
+    }
+    .latest-watch-everywhere-sec .watch-everywhere-video-sec {
+        max-width: 60%!important;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .latest-landing-sec {
+        min-height: 65vh!important;
+    }
+    .latest-banner-content-info {
+        max-width: 350px!important;
+    }
+    .latest-banner-content-info .banner-title {
+        font-size: 2.3rem!important;
+        max-width: 290px!important;
+        margin:20px auto!important;
+    
+    }
+    .latest-banner-content-info .banner-subtitle {
+        font-size: 1.28rem!important;
+    }
+    .latest-banner-content-info .banner-desc {
+        max-width: 307px!important;
+        margin:1em auto!important;
+        font-size: 1.43em!important;
+    }
+    .banner-theme-form {
+        display: block!important;
+        text-align: center;
+    }
+    .banner-theme-form .form-control {
+        min-width: 325px!important;
+        height: 55px!important;
+        border-top: 0;
+    }
+    .latest-landing-sec .latest-landing-header {
+        padding: 2em 2em!important;
+    }
+    .banner-theme-form .btn.btn-search {
+        min-height: 48px!important;
+    }
+    .latest-banner-content {
+        top: 55%!important;
+    }
+    .latest-landing-about-sec .tv-img{
+        margin-top: 0!important;
+    }
+    .latest-landing-about-sec .about-details {
+        padding-top: 0!important;
+    }
+    .latest-landing-about-sec .about-video-sec {
+        max-height: 52%!important;
+    }
+    .latest-landing-about-sec .about-details {
+        text-align: center;
+    }
+    .latest-landing-about-sec {
+        padding: 40px 20px!important;
+    }
+    .latest-download-sec {
+        padding: 40px 20px!important;
+        padding-top: 20px!important;
+    }
+    .latest-download-sec .mobile-img {
+        margin-left: 0em!important;
+    }
+    .our-download-card {
+        left: 50%!important;
+    }
+    .latest-landing-about-sec .about-details .about-title {
+        font-size: 2.5rem!important;
+    }
+    .latest-download-sec .download-details {
+        padding-top: 2em!important;
+        text-align: center;
+    }
+    .our-download-card {
+        width: 80%!important;
+    }
+    .latest-watch-everywhere-sec{
+        padding: 40px 20px!important;
+    }
+    .latest-watch-everywhere-sec .watch-everywhere-details {
+        padding-top: 2em!important;
+        text-align: center;
+    }
+    .faq-lists-sec .accordion {
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .faq-lists-sec .accordion .card .heading-title {
+        font-size: 0.65em!important;
+    }
+    .latest-faq-section {
+        padding: 40px 0%!important;
+    }
+    .faq-lists-sec .accordion .card .card-body p {
+        font-size: 1.4em!important;
+    }
+    .latest-faq-section .section-title {
+        font-size: 2rem!important;
+        max-width: 200px!important;
+        margin: auto!important;
+    }
+    .footer-sec .footer-sec-card {
+        padding: 40px 20px!important;
+    }
+    .faq-lists-sec .accordion {
+        margin: 2em auto!important;
+    }
+    .latest-watch-everywhere-sec .watch-everywhere-video-sec {
+        max-width: 58%!important;
+    }
+}
+
+@media (max-width: 375px) {
+    .latest-landing-sec {
+        min-height: 65vh!important;
+    }
+    .banner-theme-form .form-control {
+        min-width: 270px!important;
+    }
+    .latest-banner-content-info {
+        max-width: 280px!important;
+    }
+}

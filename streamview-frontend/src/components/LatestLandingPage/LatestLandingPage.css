@@ -1,0 +1,493 @@
+.latest-landing-sec {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    border-bottom: 8px solid #222;
+}
+
+.latest-landing-sec:before{
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+.latest-landing-sec .latest-landing-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2em 4em;
+    position: absolute;
+    width: 100%;
+}
+
+.latest-landing-sec .new-logo {
+    height: 3em;
+    width: auto;
+}
+
+.latest-landing-sec .signin-btn {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.latest-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-theme-form {
+    display: flex;
+}
+
+.banner-theme-form .form-control {
+    min-width: 450px;
+    height: 60px;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;
+    font-size: 1.1em;
+}
+
+.theme-form-sec {
+    position: relative;
+}
+
+/* .banner-theme-form .form-label {
+    position: absolute;
+    color: #8c8c8c;
+    font-size: 1.1em;
+    font-weight: 600;
+    z-index: 1;
+    top: 18px;
+    left: 10px;
+   display: none;
+} */
+
+.banner-theme-form .form-control:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -20px; 
+}
+
+.banner-theme-form .form-control:focus .banner-theme-form .form-control {
+    font-size: .75em;
+}
+
+.banner-theme-form .form-control:focus .banner-theme-form .form-label{
+    top: -20px!important; 
+}
+
+.banner-theme-form .form-control::placeholder{
+    color: #8c8c8c;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.banner-theme-form .btn.btn-search {
+    font-size: 1.625rem;
+    min-height: 60px;
+    margin: 0!important;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    border-left: 1px solid #333;
+    color: #fff;
+    background-color: #e50914;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e50914),to(#db0510));
+    background-image: -webkit-linear-gradient(top,#e50914,#db0510);
+    background-image: -moz- oldlinear-gradient(top,#e50914,#db0510);
+    background-image: -o-linear-gradient(top,#e50914,#db0510);
+    background-image: linear-gradient(to bottom,#e50914,#db0510);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.45);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.45);
+    box-shadow: 0 1px 0 rgba(0,0,0,.45);
+    padding: 0 1em;
+}
+
+.latest-banner-content-info {
+    text-align:center;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.latest-banner-content-info .banner-title{
+    font-size: 3.5em;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.latest-banner-content-info .banner-subtitle {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.latest-banner-content-info .banner-desc {
+    font-size: 1.2em;
+    font-weight: 500
+}
+
+/*Latest About Section CSS*/
+
+.latest-landing-about-sec {
+    background-color: #000000;
+    border-bottom: 8px solid #222;
+    padding: 60px 45px;
+}
+
+.latest-landing-about-sec .tv-img {
+   width: 100%; 
+   margin-top: -3em;
+}
+
+.latest-landing-about-sec .about-details {
+    padding-top: 7.5em;
+}
+
+.latest-landing-about-sec .about-details .about-title{
+    font-size: 3.3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0 0 .4em;
+}
+
+.latest-landing-about-sec .about-details .about-desc{
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: .75em 0 .25em;
+}
+
+.latest-landing-about-sec .tv-img-sec {
+    position: relative;
+    z-index: 2;
+}
+
+.latest-landing-about-sec .about-video-sec {
+    width: 100%;
+    height: 100%;
+    max-width: 70%;
+    max-height: 69%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.our-about-card-video {
+    width: 100%;
+}
+
+/*Latest Download section CSS*/
+
+.latest-download-sec{
+    background-color: #000000;
+    border-bottom: 8px solid #222;
+    padding: 60px 45px;
+    padding-top: 20px;
+}
+
+.latest-download-sec .mobile-img {  
+    width: 100%;
+    margin-left: -6em;
+ }
+ 
+ .latest-download-sec .download-details {
+     padding-top: 9em;
+ }
+ 
+ .latest-download-sec .download-details .download-title{
+     font-size: 3.3rem;
+     line-height: 1.1;
+     font-weight: 700;
+     margin: 0 0 .4em;
+ }
+ 
+ .latest-download-sec .download-details .download-desc{
+     font-size: 1.625rem;
+     font-weight: 500;
+     line-height: 1.4;
+     margin: .75em 0 .25em;
+ }
+ 
+ .latest-download-sec .mobile-img-sec {
+     position: relative;
+ }
+
+.our-download-card {
+    border: 2px solid rgba(255,255,255,.25);
+    -webkit-box-shadow: 0 0 2em 0 #000;
+    -moz-box-shadow: 0 0 2em 0 #000;
+    box-shadow: 0 0 2em 0 #000;
+    width: 60%;
+    min-width: 15em;
+    -moz-border-radius: .75em;
+    border-radius: .75em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 35%;
+    bottom: 8%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #000000;
+}
+
+.book-img {
+    height: 6em;
+    object-fit: cover;
+}
+
+.our-download-card-image{
+    margin: 0 1em 0 0;
+}
+
+.our-download-card .our-download-card-text .download-sub-title{
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+}
+
+.our-download-card .our-download-card-text .download-sub-desc{
+    font-size: 1em;
+    color: #0071eb;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.our-download-info {
+    display: flex;
+    align-items: center;
+}
+
+.download-gif-img-sec .download-gif-img{
+    max-width: 3.5em;
+}
+
+/*Latest Watch Everywhere Section CSS*/
+
+.latest-watch-everywhere-sec {
+    background-color: #000000;
+    border-bottom: 8px solid #222;
+    padding: 60px 45px;
+}
+
+.latest-watch-everywhere-sec .all-device-img {
+   width: 100%; 
+}
+
+.latest-watch-everywhere-sec .watch-everywhere-details {
+    padding-top: 9em;
+}
+
+.latest-watch-everywhere-sec .watch-everywhere-details .watch-everywhere-title{
+    font-size: 3.3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0 0 .4em;
+}
+
+.latest-watch-everywhere-sec .watch-everywhere-details .watch-everywhere-desc{
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: .75em 0 .25em;
+}
+
+.latest-watch-everywhere-sec .all-device-img-sec {
+    position: relative;
+    z-index: 2;
+}
+
+.latest-watch-everywhere-sec .watch-everywhere-video-sec {
+    width: 100%;
+    height: 100%;
+    max-width: 61%;
+    max-height: 76%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.our-watch-everywhere-card-video {
+    width: 100%;
+}
+
+/*Faq Section CSS*/
+
+.latest-faq-section {
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+    background-color: #000000;
+}
+
+.latest-faq-section .section-title {
+    font-size: 3.3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.faq-lists-sec .accordion {
+    width: 75%;
+    margin: 4em auto;
+    max-width: 815px;
+}
+
+.faq-lists-sec .accordion .card-header{
+    background: #303030;
+    padding: .8em 2.2em .8em 1.2em;
+}
+
+.faq-lists-sec .accordion .card {
+    border:0;
+    background-color: #000000;
+    margin-bottom: 1em;
+}
+
+.faq-lists-sec .accordion .card .card-body {
+    background: #303030;
+    display: inline-block;
+    padding: 1.2em;
+}
+.faq-lists-sec .accordion .card .card-body p{
+    font-size: 1.6em;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0 0.5em;
+}
+
+.faq-lists-sec .accordion .card .heading-title {
+    font-size: 0.7em;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.form-align-center {
+    justify-content: center;
+}
+
+.latest-banner-content-info-form .faq-desc{
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*Footer Section CSS*/
+.footer-sec{
+    background-color: #000000;
+}
+
+.footer-sec .footer-sec-card {
+    padding: 70px 45px;
+}
+
+.footer-sec .footer-sec-card .footer-site-sec {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+
+.footer-top-title {
+    padding: 0;
+    margin: 0 0 30px;
+    font-size: 1em;
+    color: #757575;
+}
+
+.footer-link-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+    color: #757575;
+    font-size:1em;
+}
+
+.language-dropdown {
+    text-indent: 0;
+    padding: 0.8em;
+    background-image: none;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.footer-company-name {
+    color: #757575;
+    font-size:1em;
+    margin-bottom: 0;
+    padding-top: 1em;
+}
+
+.heading-title.collapsed::after {
+    content: "\002B";
+    font-size: 1.5em;
+    position: absolute;
+    right: 2rem;
+}
+
+.heading-title::after {
+    content: "\2212";
+    font-size: 1.5em;
+    position: absolute;
+    right: 2rem;
+}
